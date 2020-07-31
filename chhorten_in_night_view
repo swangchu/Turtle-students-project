@@ -1,0 +1,481 @@
+"""
+1. Sonam Tobgay
+2. Reeansha
+3. Kinley Bidha
+
+"""
+
+from turtle import*
+shape("turtle")
+speed(100)
+
+color("black")
+begin_fill()
+speed(100)
+bgcolor("black")
+for i in range(4):
+    fd(800)
+    lt(90)
+    fd(800)
+end_fill()
+
+penup()
+goto(400,200)
+color("white")
+begin_fill()
+circle(50)
+end_fill()
+
+pendown()
+goto(410,200)
+color("black")
+begin_fill()
+circle(50)
+end_fill()
+penup()
+
+#stars
+
+goto(510,310)
+pendown()
+speed(100)
+
+def draw_stars():
+    color("white")
+    begin_fill()
+    for i in range (5):
+        fd(20)
+        rt(144)
+    end_fill()
+
+
+penup()
+goto(500,303)
+pendown()
+draw_stars()
+penup()
+goto(450,310)
+pendown()
+draw_stars()
+penup()
+goto(550,239)
+pendown()
+draw_stars()
+penup()
+goto(510,220)
+pendown()
+draw_stars()
+penup()
+goto(525,257)
+pendown()
+draw_stars()
+penup()
+goto(457,245)
+pendown()
+draw_stars()
+penup()
+goto(486,275)
+pendown()
+draw_stars()
+
+
+
+
+
+#draw chortens
+penup()
+goto(-540,-340)
+pensize(3)
+speed(100)
+for i in range(2):
+    pendown()
+    color("White","red")
+    begin_fill()
+    forward(400)
+    left(90)
+    forward(80)
+    left(90)
+    end_fill()
+
+penup()
+left(90)
+forward(80)
+right(90)
+forward(40)
+left(90)
+
+for i in range(2):
+    pendown()
+    forward(10)
+    right(90)
+    forward(320)
+    right(90)
+
+penup()
+forward(10)
+right(90)
+forward(20)
+left(90)
+for i in range(2):
+    pendown()
+    forward(10)
+    right(90)
+    forward(280)
+    right(90)
+    
+penup()
+forward(10)
+right(90)
+forward(20)
+left(90)
+for i in range(2):
+    pendown()
+    forward(10)
+    right(90)
+    forward(240)
+    right(90)
+
+penup()
+forward(10)
+right(90)
+forward(10)
+left(90)
+
+for i in range(2):
+    pendown()
+    forward(80)
+    right(90)
+    forward(220)
+    right(90)
+
+forward(80)
+left(90)
+forward(10)
+right(90)
+
+
+for i in range(2):
+    forward(10)
+    right(90)
+    forward(240)
+    right(90)
+    
+forward(10)
+left(90)
+forward(20)
+right(90)
+
+for i in range(2):
+    forward(10)
+    right(90)
+    forward(280)
+    right(90)    
+    
+forward(10)
+left(90)
+forward(20)
+right(90)    
+    
+for i in range(2):
+    forward(50)
+    right(90)
+    forward(320)
+    right(90)    
+
+forward(50)
+right(90)
+forward(20)
+left(90)
+for i in range(2):
+    forward(20)
+    right(90)
+    forward(280)
+    right(90)
+    
+
+forward(20)
+right(90)
+forward(20)
+left(90)
+ 
+for i in range(2):
+    forward(20)
+    right(90)
+    forward(240)
+    right(90)
+
+
+forward(20)
+right(90)
+forward(10)
+left(45)
+forward(6)
+right(45)
+forward(220)
+right(45)
+forward(6)
+
+#top
+backward(6)
+left(225)
+forward(40)
+right(90+10)
+pensize(5)
+forward(60)
+left(10)
+circle(60,90)
+right(90)
+circle(20,180)
+
+right(90)
+circle(60,90)
+left(10)
+forward(60)
+
+
+pensize(3)
+right(100)
+forward(20)
+
+right(90-20)
+forward(140)
+right(20+45)
+forward(50)
+right(45)
+forward(200)
+
+right(45)
+forward(50)
+right(45+20)
+forward(140)
+
+backward(140)
+
+right(70)
+forward(120)
+penup()
+fd(20)
+pd()
+fd(130)
+
+rt(90+45)
+fd(50)
+rt(45)
+fd(20)
+lt(90)
+
+for i in range (2):
+    fd(10)
+    rt(90)
+    fd(160)
+    rt(90)
+
+fd(10)    
+rt(90)
+fd(10)
+lt(90)
+for i in range(2):
+    fd(10)
+    rt(90)
+    fd(140)
+    rt(90)
+
+fd(10)
+lt(90)
+fd(10)
+rt(90)
+for i in range(2):
+    fd(5)
+    rt(90)
+    fd(160)
+    rt(90)
+fd(5)
+lt(90)
+fd(10)
+rt(90)
+
+for i in range(2):
+    fd(20)
+    rt(90)
+    fd(180)
+    rt(90)
+
+fd(20)
+rt(90)
+fd(20)
+lt(90-10)
+color("yellow")
+begin_fill()
+fd(100)
+rt(80)
+fd(100)
+
+rt(90-10)
+fd(100)
+end_fill()
+
+
+backward(100)
+lt(90-10)
+fd(15)
+lt(90+25)
+fd(20)
+rt(65)
+fd(20)
+
+lt(90+40)
+fd(130)
+lt(90+25)
+fd(20)
+rt(65)
+fd(20)
+lt(125)
+
+fd(55)
+lt(90)
+
+penup()
+fd(40)
+
+pendown()
+rt(15)
+fd(30)
+rt(150)
+fd(30)
+rt(10)
+
+
+from random import *
+penup()
+goto(455,-310)
+left(180)
+pendown()
+def branch(branch_len):
+    color("brown")
+    angle = randint(22,30)
+    sf = uniform(0.6,0.8)
+    size = branch_len /10
+    pensize(size)
+    if branch_len < 20:
+        color("green")
+        stamp()
+        color("brown")
+    if branch_len > 10:
+        angle = 30
+        forward(branch_len)
+        left(angle)
+        branch(branch_len*sf)
+        right(angle*2)
+        branch(branch_len*sf)
+        left(angle)
+        backward(branch_len)
+
+branch(100)
+penup()
+
+
+goto(-660,-300)
+#draw flags
+def draw_flags():
+    for i in range(2):
+        color("green","green")
+        begin_fill()
+        forward(350)
+        right(90)
+        forward(16)
+        right(90)
+        end_fill()
+    
+    forward(350)
+    left(90)
+    forward(6)
+    right(90)
+
+    for i in range(2):
+        forward(6)
+        right(90)
+        forward(28)
+        right(90)
+    fd(6)
+    rt(90)
+    fd(4)
+    lt(45)
+    fd(15)
+    rt(90)
+    fd(15)
+    lt(45)
+    fd(4)
+
+    penup()
+    rt(90)
+    fd(6)
+    rt(90)
+    fd(6)
+    lt(90)
+    fd(5)
+    lt(90)
+    pendown()
+    
+    color("white")
+    begin_fill()
+    fd(15)
+    rt(90)
+    fd(260)
+    rt(90)
+    fd(15)
+    rt(90)
+    end_fill()
+        
+
+
+draw_flags()
+penup()
+goto(-620,-300)
+pendown()
+draw_flags()
+penup()
+goto(150,-310)
+pendown()
+draw_flags()
+penup()
+goto(110,-310)
+pendown()
+draw_flags()
+penup()
+goto(70,-310)
+pendown()
+draw_flags()
+penup()
+goto(30,-310)
+pendown()
+draw_flags()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
